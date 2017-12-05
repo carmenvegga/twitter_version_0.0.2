@@ -9,7 +9,7 @@ var txtValue = txt.value;
 var onKeyPressE = function() {
   longTxt = txt.value.length;
     //console.log("longitud de texto:", longTxt);
-  if(longTxt > 0){
+  if(longTxt >= 0){
     clickerButton.disabled = false;
     //console.log("habilitado");
   } else {
@@ -17,6 +17,7 @@ var onKeyPressE = function() {
     //console.log("deshabilitado");
   }
 }
+
 
 var onButtonClick = function() {
   txtValue = txt.value;
