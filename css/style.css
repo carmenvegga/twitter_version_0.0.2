@@ -1,0 +1,57 @@
+body {
+  background-image: url("../images/biciazul.jpg");
+  background-size: cover;
+  margin: 0;
+}
+.barra {
+  position: fixed;
+  top: 0px;
+  padding: 0;
+  background: #6AD2F3;
+  width: 100%;
+}
+.barra > h1 {
+  color: #fff;
+  text-align: center;
+}
+.container-static {
+  background: #fff;
+  width: 40%;
+  height: 200px;
+  float: left;
+  margin-top: 8%;
+  margin-left: 15%;
+}
+.container-static > p {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.linea-container {
+  padding: 0;
+  margin: 0;
+  border: solid 2px;
+  color: #ccc;
+}
+.titulo {
+  color: #6AD2F3;
+  font-weight: bold;
+  margin-left: 5%;
+}
+.container-text {
+  float:right;
+  margin-right: 15%;
+  margin-top: 8%;
+}
+.container-tweets {
+  background: #fff;
+  width: 70%;
+  height: 10%;
+  float: left;
+  display: block;
+  margin-top: 15px;
+  margin-left: 15%;
+}
+.block-tweet{
+  margin:5px 5px;
+  /*aun no encuentro como separar cada bloque de tweet*/
+}
