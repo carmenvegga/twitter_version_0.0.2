@@ -6,10 +6,11 @@ var longTxt = txt.value.length;
 var txtValue = txt.value;
 
 //2. Definir una función que será llamada cuando suceda el evento, (hacer click)
+//2.1 Segunda función, deshabilitar si hay mas de 140 caracteres
 var onKeyPressE = function() {
   longTxt = txt.value.length;
-    //console.log("longitud de texto:", longTxt);
-  if(longTxt >= 0){
+  //console.log("longitud de texto:", longTxt);
+  if (longTxt <= 139) {
     clickerButton.disabled = false;
     //console.log("habilitado");
   } else {
@@ -17,6 +18,11 @@ var onKeyPressE = function() {
     //console.log("deshabilitado");
   }
 }
+/*var changeColor = function() {
+  me falta el contador
+}
+*/
+
 
 
 var onButtonClick = function() {
